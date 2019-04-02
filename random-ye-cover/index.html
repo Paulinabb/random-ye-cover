@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Random Ye cover</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton_enhanced.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="container">
+      <div class="main-header">
+        <h1>RANDOM YE COVER</h1<br>
+          <p class="powered">POWERED BY <a target="_blank" href="https://kanye.rest/">KANYE.REST</a></p>
+          <p class="inspired">INSPIRED BY <a target="_blank" href="https://yenerator.com/">YENERATOR</a></p>
+      </div>
+      <div class="main-wrapper col XL-4 o-XL-4 L-6 o-L-3 M-8 o-M-2 S-10 o-S-1">
+        <div class="quote">
+            <p>{{ quote }}</p>
+        </div>
+      </div>
+      <div class="row">
+        <button class="col XL-2 o-XL-5 L-4 o-L-4 M-4 o-M-4 S-8 o-S-2" v-on:click="mounted">Add random Kanye quote</button>
+      </div>      
+  </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+  </body>
+
+</html>
